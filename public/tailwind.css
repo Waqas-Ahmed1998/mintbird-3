@@ -15,6 +15,12 @@
   .btn-applied {
     @apply bg-[#F5F5F5]
   }
+  .radio-input{
+    @apply form-radio cursor-pointer focus:ring-0 focus:ring-offset-0 hover:ring-0 hover:ring-offset-0 border-none bg-[#CCD2DB]
+  }
+  .checkbox-input {
+    @apply  cursor-pointer border-transparent   shadow-none focus:ring-0 focus:outline-none  text-white focus:text-white focus:outline  checked:border-[1px]    focus:ring-offset-0 rounded-[3px] transition-colors ease-in-out
+  }
 }
 body {
 
@@ -29,6 +35,10 @@ input{
 
 
 }
+.checked-pay{
+  border: 1px solid #4182F5;
+
+}
 .montserat {
   font-family: 'Montserrat', sans-serif;
 
@@ -37,6 +47,7 @@ input{
 .popins {
   font-family: 'Poppins', sans-serif;
 
+
 }
 .maven-fonts {
 font-family: 'Maven Pro', sans-serif;
@@ -44,7 +55,9 @@ font-family: 'Maven Pro', sans-serif;
 }
 label {
 
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+font-family: 'Noto Serif', serif;
+
 }
 .lato-fonts {
 font-family: 'Lato', sans-serif;
